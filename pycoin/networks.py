@@ -20,6 +20,12 @@ NETWORKS = (
     NetworkValues("Litecoin", "testnet", "XLT", b'\xef', b'\x6f', b'\xc4',
                   h2b('0436ef7d'), h2b('0436f6e1')),
 
+    # PEPE dankcoin mainnet : Ltpv/Ltub
+    NetworkValues("Dankcoin", "mainnet", "PEPE", b'\x75', b'\x37', b'\x8F', h2b('0483BFC3'), h2b('0483D7A8')),
+    # PEPE dankcoin testnet : ttpv/ttub
+    NetworkValues("Dankcoin", "testnet", "XPEPE", b'\x7F', b'\x41', b'\xAE',
+                  h2b('0426A726'), h2b('042676D4')),
+
     # VIA viacoin mainnet : xprv/xpub
     NetworkValues("Viacoin", "mainnet", "VIA", b'\xc7', b'\x47', b'\x21', h2b('0488ADE4'), h2b('0488B21E')),
     # VIA viacoin testnet : tprv/tpub
